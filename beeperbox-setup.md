@@ -1,8 +1,12 @@
 # Beeperbox Setup
 
+**Project**: [hamr0/beeperbox](https://github.com/hamr0/beeperbox)
+
 ## What it is
 
 Beeper Desktop running headless in a Docker container on the NanoClaw host (image `ghcr.io/hamr0/beeperbox:latest`). Bridges Messenger, WhatsApp, Telegram, Discord, Facebook, and LinkedIn into a single API. NanoClaw talks to it via MCP.
+
+The container exposes a noVNC server — all setup and login is done through a browser-based VNC session, no desktop required on the host.
 
 ---
 

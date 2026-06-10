@@ -14,4 +14,5 @@ Telegram is the primary channel for talking to NanoClaw. Reasons:
 
 - [Signal separate identity](signal-separate-identity.md) — Route agent messages through a secondary Signal device so they appear in a different color (left side / received) in Note to Self.
 - [Beeperbox setup](beeperbox-setup.md) — Headless Beeper Desktop in Docker bridging Messenger, WhatsApp, Telegram, Discord, Facebook, and LinkedIn into a single MCP-accessible API.
+- [pCloud OAuth token](pcloud-oauth-token.md) — How to get a working pCloud API bearer token when the account has 2FA enabled (via rclone's bundled OAuth app — password login is incompatible with 2FA).
 - [messenger-reader](https://github.com/Graunephar/messenger-reader-nanoclaw) — Read-only MCP server that exposes *all* Facebook Messenger threads via a browser session, as a secondary read source to Beeper.
